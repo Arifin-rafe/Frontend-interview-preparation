@@ -1,4 +1,4 @@
-// console.log("minhaz"-"rafe")
+// console.log("minhaz"-"rafe") // NaN
 
 // const str1 = "minhaz"
 // const str2 = "rafe"
@@ -16,8 +16,14 @@
 // let b = 30;
 // function swap(x, y) {return [a, b] = [y, x] }
 // console.log(swap(a, b));
+
 // promise vs async await?
 // A Promise is a JavaScript object that represents the eventual completion (or failure) of an asynchronous operation,
 // and its resulting value.
 // An async function is a function declared with the async keyword, which returns a Promise.
 // Inside an async function, you can use the await keyword to pause execution until a Promise is resolved.
+
+let obj =[{name:"rafe" ,marks: 100}, {name:"minhaz" ,marks: 90}, {name:"sabbir" ,marks: 80}, {name:"sabbir" ,marks: 70}]
+
+const newMarks = obj.filter((item) => item.marks > 85)
+console.log(newMarks)
