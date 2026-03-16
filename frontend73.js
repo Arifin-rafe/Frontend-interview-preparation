@@ -50,6 +50,5 @@
 // What is marquee tag?
 // The <marquee> tag is an HTML element that creates a scrolling text or image effect. 
 
-// Overlapping elements in CSS?
-// Overlapping elements in CSS can be achieved using the position property (relative, absolute, fixed) and z-index to control the stacking order of elements. 
+// Overlapping elements in CSS? 
 // Elements with a higher z-index will appear on top of those with a lower z-index when they overlap.
