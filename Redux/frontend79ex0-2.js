@@ -9,3 +9,7 @@ for (let i=0; i<arr.length; i++){
     }
 }
 console.log(res)
+
+const arr2 =[1,2,3,4,5]
+const ress = arr2.filter((x)=>x>3)
+console.log(ress)
