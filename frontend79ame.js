@@ -35,3 +35,6 @@
 // These are mutable and stored by reference, so when you assign an object or array to a new variable,
 // it points to the same memory location— changes to one affect the other.
 
+// Difference between every and some method in JavaScript
+// The every() method tests whether all elements in an array pass a specified test 
+// (provided as a function).
